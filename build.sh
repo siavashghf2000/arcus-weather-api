@@ -1,4 +1,4 @@
 #!/bin/sh
 
-dep ensure -v &&
+#dep ensure -v &&
 go build src/main.go
