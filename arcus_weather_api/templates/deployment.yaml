@@ -28,7 +28,7 @@ spec:
       name: weather-api
     spec:
       containers:
-      - image: {{image}}
+      - image: {{.Values.image.repository}}
         imagePullPolicy: IfNotPresent
         name: weather-api
         ports:
